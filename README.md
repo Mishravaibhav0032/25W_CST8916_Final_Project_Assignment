@@ -25,18 +25,20 @@ Sample JSON script used is below :-
 }
 ```
 The script uses the Azure IoT Hub Device SDK to send telemetry to the Rideau-IOT-Hub.
+
 ### Azure IoT Hub Configuration
-IoT Hub Name: Rideau-IOT-Hub
 
-Resource Group: FinalRTRD
-
-Region: Canada Central
-
-Tier: Free (daily message quota: 8,000)
+IoT Hub Name : Rideau-IOT-Hub
+Resource Group : FinalRTRD
+Region : Canada Central
+Tier : Free (daily message quota: 8,000)
 
 The three devices (DowsLakeSensor, FifthaveSensor, NACSensor) were each added manually using the Azure portal. Authentication is handled using Shared Access Signature (SAS) keys, which were inserted into the simulation script for each device.
 
 No routes or custom endpoints were present — default settings are used.
+
+### Azure Stream Analytics Job
+
 ## 4. Usage Instructions
 
 ## 5. Results
