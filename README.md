@@ -187,3 +187,31 @@ Each file is stored in .json format and contains :
 <li>Location-specific insights.</li>  
 
 ## 6. Reflection
+# Challenges Faced  
+1. Device-to-Hub Connectivity  
+
+<li>Initially, some of the IoT devices failed to send data due to incorrect device connection strings.</li>  
+<li>Resolution: Verified and updated device-specific connection strings from Azure IoT Hub into the simulation script.</li>   
+
+2. Stream Analytics Job Delays  
+
+<li>There was a noticeable delay between data ingestion and storage output during testing.</li>  
+<li>Resolution: Tuned the tumbling window to 5 minutes and ensured timestamp alignment (TIMESTAMP BY timestamp) to improve consistency.</li>  
+
+Data Format Conflicts
+
+During early testing, inconsistencies in the JSON payload structure (e.g., missing timestamp or location) caused ingestion failures.
+
+Resolution: Standardized the payload structure and added logging to the simulation script to validate output.
+
+Blob Storage Output Issues
+
+The Stream Analytics job didn’t create output files initially because of permission issues with the container.
+
+Resolution: Corrected storage access roles and confirmed the output path and format (JSON) were properly configured.
+
+# Lessons Learned
+Gained hands-on experience working with real-time Azure services, especially how to interconnect IoT Hub, Stream Analytics, and Blob Storage.
+Understood the importance of timestamp synchronization and windowing when aggregating real-time data.
+Learned how to troubleshoot and debug Azure service configurations, such as verifying routing paths, input/output bindings, and service health.
+
