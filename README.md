@@ -91,12 +91,11 @@ pip install azure-iot-device
 <li>DowsLakeSensor</li>  
 <li>FifthaveSensor</li>  
 <li>NACSensor</li>  
-Run the simulation script:
-
-bash
-Copy
-Edit
+6. Run the simulation script:  
+```
 python simulate_sensors.py
+```
 The script will start generating telemetry data every 10 seconds and send it to Rideau-IOT-Hub.
+
 ## 5. Results
 ## 6. Reflection
