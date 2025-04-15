@@ -44,6 +44,23 @@ Region: Canada Central
 Input: IoT Hub (Rideau-IOT-Hub)  
 Output: Azure Blob Storage (streamcontainer in rideaucanalstorageacc)  
 
+Logic Query :-  
+```
+SELECT
+  System.Timestamp AS WindowEnd,
+  location,
+  AVG(iceThickness) AS AvgIceThickness,
+  MAX(snowAccumulation) AS MaxSnowAccumulation
+INTO
+  [YourBlobOutputAlias]
+FROM
+  [Rideau-IOT-Hub]
+TIMESTAMP BY timestamp
+GROUP BY
+  TUMBLINGWINDOW(minute, 5), location
+
+```
+
 ## 4. Usage Instructions
 
 ## 5. Results
