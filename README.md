@@ -174,12 +174,11 @@ These metrics are crucial for determining safe skating conditions and understand
 ```
 Each record in the container streamcontainer corresponds to one location and a 5-minute window of data.  
 
-📂 Sample Output Files
-Processed results are saved in Azure Blob Storage at:
+# Sample Output Files  
+Processed results are saved in Azure Blob Storage at:  
 
-Storage Account: rideaucanalstorageacc
-
-Container: streamcontainer
+<li>Storage Account : rideaucanalstorageacc</li>  
+<li>Container: streamcontainer</li>  
 
 Each file is stored in .json format and contains:
 
