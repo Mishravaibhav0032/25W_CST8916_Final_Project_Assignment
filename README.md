@@ -10,7 +10,7 @@ Ottawa's Rideau Canal is transformed into the world's largest outdoor ice skatin
 The project simulates three IoT sensors placed at key positions along the Rideau Canal Skateway:<br></br>
 <li>DowsLakeSensor (Dow's Lake)  </li>
 <li>FifthaveSensor (Fifth Avenue)  </li>
-<li>NACSensor (National Arts Centre)  </li>
+<li>NACSensor (National Arts Centre)  </li>  
 
 Sample JSON script used is below :-  
 ```
