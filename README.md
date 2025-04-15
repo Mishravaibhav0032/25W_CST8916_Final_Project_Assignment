@@ -188,6 +188,7 @@ Each file is stored in .json format and contains :
 
 ## 6. Reflection
 # Challenges Faced  
+<br></br>
 1. Device-to-Hub Connectivity  
 
 <li>Initially, some of the IoT devices failed to send data due to incorrect device connection strings.</li>  
