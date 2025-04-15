@@ -65,6 +65,16 @@ This aggregates each location's data over a 5-minute window to :
 <li>Calculate average ice thickness.</li>  
 <li>Find the maximum snow accumulation.</li>  
 
+### Azure Blob Storage  
+
+Storage Account : rideaucanalstorageacc  
+Container : streamcontainer  
+Access Tier : Hot (default)  
+Replication : Locally-redundant (LRS)  
+
+The Stream Analytics job will output processed data into this container. File format is expected to be JSON by default, depending on Stream Analytics job settings.
+
+Files are named automatically and organized by date/hour/minute structure inside the container.
 ## 4. Usage Instructions
 
 ## 5. Results
