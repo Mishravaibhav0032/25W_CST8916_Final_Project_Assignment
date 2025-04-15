@@ -140,7 +140,7 @@ TIMESTAMP BY timestamp
 GROUP BY
   TUMBLINGWINDOW(minute, 5), location
 ```
-Click Start Job to begin streaming and processing real-time sensor data.
+   5. Click Start Job to begin streaming and processing real-time sensor data.  
 
 ## 5. Results
 ## 6. Reflection
