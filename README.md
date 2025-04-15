@@ -123,9 +123,9 @@ b. Azure Stream Analytics Job
           Output to Azure Blob Storage  
           Storage Account : rideaucanalstorageacc  
           Container : streamcontainer  
-          File Format: JSON  
+          File Format: JSON
     
-    4. Create and enter the Query:
+    4. Create and enter the Query:  
 ```
 SELECT
   System.Timestamp AS WindowEnd,
