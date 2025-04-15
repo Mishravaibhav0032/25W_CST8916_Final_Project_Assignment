@@ -192,17 +192,17 @@ Each file is stored in .json format and contains :
 
 <li>Initially, some of the IoT devices failed to send data due to incorrect device connection strings.</li>  
 <li>Resolution: Verified and updated device-specific connection strings from Azure IoT Hub into the simulation script.</li>   
-
+<br></br>
 2. Stream Analytics Job Delays  
 
 <li>There was a noticeable delay between data ingestion and storage output during testing.</li>  
 <li>Resolution: Tuned the tumbling window to 5 minutes and ensured timestamp alignment (TIMESTAMP BY timestamp) to improve consistency.</li>  
-
+<br></br>
 3. Data Format Conflicts  
 
 <li>During early testing, inconsistencies in the JSON payload structure (e.g., missing timestamp or location) caused ingestion failures.</li>  
 <li>Resolution: Standardized the payload structure and added logging to the simulation script to validate output.</li>  
-
+<br></br>
 4. Blob Storage Output Issues
 
 <li>The Stream Analytics job didn’t create output files initially because of permission issues with the container.</li>  
