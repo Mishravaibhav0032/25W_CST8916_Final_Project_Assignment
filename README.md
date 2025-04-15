@@ -198,11 +198,10 @@ Each file is stored in .json format and contains :
 <li>There was a noticeable delay between data ingestion and storage output during testing.</li>  
 <li>Resolution: Tuned the tumbling window to 5 minutes and ensured timestamp alignment (TIMESTAMP BY timestamp) to improve consistency.</li>  
 
-Data Format Conflicts
+3. Data Format Conflicts  
 
-During early testing, inconsistencies in the JSON payload structure (e.g., missing timestamp or location) caused ingestion failures.
-
-Resolution: Standardized the payload structure and added logging to the simulation script to validate output.
+<li>During early testing, inconsistencies in the JSON payload structure (e.g., missing timestamp or location) caused ingestion failures.</li>  
+<li>Resolution: Standardized the payload structure and added logging to the simulation script to validate output.</li>  
 
 Blob Storage Output Issues
 
