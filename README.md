@@ -80,18 +80,14 @@ Files are named automatically and organized by date/hour/minute structure inside
 
 To simulate sensor data from Dow's Lake, Fifth Avenue, and NAC locations:  
 
-1. Open Visual Studio Code.
-2. Ensure Python 3.11 or above is installed.
-3. Install the required Azure IoT Device SDK using pip:
-
-bash
-Copy
-Edit
+1. Open Visual Studio Code.  
+2. Ensure Python 3.11 or above is installed.  
+3. Install the required Azure IoT Device SDK using pip:  
+```
 pip install azure-iot-device
-Navigate to the folder containing simulate_sensors.py.
-
-Make sure your simulate_sensors.py contains device connection strings for:
-
+```
+4. Navigate to the folder containing simulate_sensors.py.  
+5. Make sure your simulate_sensors.py contains device connection strings for:  
 DowsLakeSensor
 
 FifthaveSensor
