@@ -24,7 +24,8 @@ Sample JSON script used is below :-
   "timestamp": "2025-04-09T22:32:19.612150Z"
 }
 ```
-
+The script uses the Azure IoT Hub Device SDK to send telemetry to the Rideau-IOT-Hub.
 ## 4. Usage Instructions
+
 ## 5. Results
 ## 6. Reflection
