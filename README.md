@@ -95,6 +95,7 @@ pip install azure-iot-device
 ```
 python simulate_sensors.py
 ```
+
 The script will start generating telemetry data every 10 seconds and send it to Rideau-IOT-Hub.  
 
 ## 5. Results
