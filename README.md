@@ -60,7 +60,9 @@ GROUP BY
   TUMBLINGWINDOW(minute, 5), location
 
 ```
-
+This aggregates each location's data over a 5-minute window to :  
+<li></li>Calculate average ice thickness.
+<li></li>Find the maximum snow accumulation.
 ## 4. Usage Instructions
 
 ## 5. Results
