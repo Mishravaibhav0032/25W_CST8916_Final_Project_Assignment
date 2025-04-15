@@ -76,6 +76,34 @@ The Stream Analytics job will output processed data into this container. File fo
 
 Files are named automatically and organized by date/hour/minute structure inside the container.
 ## 4. Usage Instructions
+# 1. Running the IoT Sensor Simulation  
 
+To simulate sensor data from Dow's Lake, Fifth Avenue, and NAC locations:  
+
+1. Open Visual Studio Code.
+2. Ensure Python 3.11 or above is installed.
+3. Install the required Azure IoT Device SDK using pip:
+
+bash
+Copy
+Edit
+pip install azure-iot-device
+Navigate to the folder containing simulate_sensors.py.
+
+Make sure your simulate_sensors.py contains device connection strings for:
+
+DowsLakeSensor
+
+FifthaveSensor
+
+NACSensor
+
+Run the simulation script:
+
+bash
+Copy
+Edit
+python simulate_sensors.py
+The script will start generating telemetry data every 10 seconds and send it to Rideau-IOT-Hub.
 ## 5. Results
 ## 6. Reflection
