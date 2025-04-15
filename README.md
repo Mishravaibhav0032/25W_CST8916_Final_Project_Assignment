@@ -116,23 +116,17 @@ b. Azure Stream Analytics Job
           Source Type : IoT Hub
           IoT Hub : Rideau-IOT-Hub
           Consumer Group : $Default
-          Shared Access Policy : iothubowner
+          Shared Access Policy : iothubowner  
 
-Configure Output:
+   3. Configure Output :  
 
-Output to Azure Blob Storage
-
-Storage Account: rideaucanalstorageacc
-
-Container: streamcontainer
-
-File Format: JSON
-
-Create and enter the Query:
-
-sql
-Copy
-Edit
+          Output to Azure Blob Storage  
+          Storage Account : rideaucanalstorageacc  
+          Container : streamcontainer  
+          File Format: JSON  
+    
+    4. Create and enter the Query:
+```
 SELECT
   System.Timestamp AS WindowEnd,
   location,
@@ -145,6 +139,7 @@ FROM
 TIMESTAMP BY timestamp
 GROUP BY
   TUMBLINGWINDOW(minute, 5), location
+```
 Click Start Job to begin streaming and processing real-time sensor data.
 
 ## 5. Results
