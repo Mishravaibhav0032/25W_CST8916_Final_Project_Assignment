@@ -88,12 +88,9 @@ pip install azure-iot-device
 ```
 4. Navigate to the folder containing simulate_sensors.py.  
 5. Make sure your simulate_sensors.py contains device connection strings for:  
-DowsLakeSensor
-
-FifthaveSensor
-
-NACSensor
-
+<li>DowsLakeSensor</li>  
+<li>FifthaveSensor</li>  
+<li>NACSensor</li>  
 Run the simulation script:
 
 bash
