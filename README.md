@@ -203,11 +203,10 @@ Each file is stored in .json format and contains :
 <li>During early testing, inconsistencies in the JSON payload structure (e.g., missing timestamp or location) caused ingestion failures.</li>  
 <li>Resolution: Standardized the payload structure and added logging to the simulation script to validate output.</li>  
 
-Blob Storage Output Issues
+4. Blob Storage Output Issues
 
-The Stream Analytics job didn’t create output files initially because of permission issues with the container.
-
-Resolution: Corrected storage access roles and confirmed the output path and format (JSON) were properly configured.
+<li>The Stream Analytics job didn’t create output files initially because of permission issues with the container.</li>  
+<li>Resolution: Corrected storage access roles and confirmed the output path and format (JSON) were properly configured.</li>  
 
 # Lessons Learned
 Gained hands-on experience working with real-time Azure services, especially how to interconnect IoT Hub, Stream Analytics, and Blob Storage.
