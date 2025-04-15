@@ -38,11 +38,11 @@ No routes or custom endpoints were present — default settings are used.
 
 ### Azure Stream Analytics Job
 
-Job Name: RideauAnalyticJob  
-Status: Created (configured but not yet started)  
-Region: Canada Central  
-Input: IoT Hub (Rideau-IOT-Hub)  
-Output: Azure Blob Storage (streamcontainer in rideaucanalstorageacc)  
+Job Name : RideauAnalyticJob  
+Status : Created (configured but not yet started)  
+Region : Canada Central  
+Input : IoT Hub (Rideau-IOT-Hub)  
+Output : Azure Blob Storage (streamcontainer in rideaucanalstorageacc)  
 
 Logic Query :-  
 ```
