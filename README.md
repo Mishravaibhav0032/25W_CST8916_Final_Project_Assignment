@@ -91,7 +91,7 @@ pip install azure-iot-device
 <li>DowsLakeSensor</li>  
 <li>FifthaveSensor</li>  
 <li>NACSensor</li>  
-6. Run the simulation script:  
+6. Run the simulation script:
 ```
 python simulate_sensors.py
 ```
