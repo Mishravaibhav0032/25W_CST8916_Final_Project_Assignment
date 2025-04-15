@@ -11,6 +11,7 @@ The project simulates three IoT sensors placed at key positions along the Rideau
 <li>DowsLakeSensor (Dow's Lake)  </li>
 <li>FifthaveSensor (Fifth Avenue)  </li>
 <li>NACSensor (National Arts Centre)  </li>
+
 Sample JSON script used is below :-
 ```
 {
