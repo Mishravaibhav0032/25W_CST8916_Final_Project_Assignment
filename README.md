@@ -61,8 +61,8 @@ GROUP BY
 
 ```
 This aggregates each location's data over a 5-minute window to :  
-<li></li>Calculate average ice thickness.  
-<li></li>Find the maximum snow accumulation.  
+<li>Calculate average ice thickness.</li>  
+<li>Find the maximum snow accumulation.</li>  
 
 ## 4. Usage Instructions
 
