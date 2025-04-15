@@ -163,17 +163,16 @@ Using a tumbling window of 5 minutes, the Stream Analytics job computed the foll
 
 These metrics are crucial for determining safe skating conditions and understanding snow impact across different points on the canal.  
 
-📈 Example Aggregated Output (JSON format)
-json
-Copy
-Edit
+# Example Aggregated Output (JSON format)  
+```
 {
   "location": "NAC",
   "windowEnd": "2025-04-09T22:35:00Z",
   "avgIceThickness": 28.5,
   "maxSnow": 12
 }
-Each record in the container streamcontainer corresponds to one location and a 5-minute window of data.
+```
+Each record in the container streamcontainer corresponds to one location and a 5-minute window of data.  
 
 📂 Sample Output Files
 Processed results are saved in Azure Blob Storage at:
