@@ -109,18 +109,14 @@ FifthaveSensor
 NACSensor  
    5. Copy each device’s connection string and update them in the simulation script accordingly.  
 
-b. Azure Stream Analytics Job
-Navigate to RideauAnalyticJob in the FinalRTRD resource group.
+b. Azure Stream Analytics Job  
+   1. Navigate to RideauAnalyticJob in the FinalRTRD resource group.  
+   2. Configure Input :  
 
-Configure Input:
-
-Source Type: IoT Hub
-
-IoT Hub: Rideau-IOT-Hub
-
-Consumer Group: $Default
-
-Shared Access Policy: iothubowner
+          Source Type : IoT Hub
+          IoT Hub : Rideau-IOT-Hub
+          Consumer Group : $Default
+          Shared Access Policy : iothubowner
 
 Configure Output:
 
