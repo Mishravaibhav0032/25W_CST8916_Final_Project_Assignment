@@ -179,7 +179,7 @@ Processed results are saved in Azure Blob Storage at:
 
 <li>Storage Account : rideaucanalstorageacc</li>  
 <li>Container : streamcontainer</li>  
-<br></br>
+
 Each file is stored in .json format and contains :  
 
 <li>Aggregated data for all three sensors.</li>  
