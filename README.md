@@ -7,7 +7,7 @@ Ottawa's Rideau Canal is transformed into the world's largest outdoor ice skatin
 
 ## 3. Implementation Details
 ### IoT Sensor Simulation and Script
-The project simulates three IoT sensors placed at key positions along the Rideau Canal Skateway:
+The project simulates three IoT sensors placed at key positions along the Rideau Canal Skateway:<br></br>
 
 -> DowsLakeSensor (Dow's Lake) <br></br>
 -> FifthaveSensor (Fifth Avenue) <br></br>
