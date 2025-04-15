@@ -209,8 +209,7 @@ Each file is stored in .json format and contains :
 <li>The Stream Analytics job didn’t create output files initially because of permission issues with the container.</li>  
 <li>Resolution: Corrected storage access roles and confirmed the output path and format (JSON) were properly configured.</li>  
 
-# Lessons Learned
-Gained hands-on experience working with real-time Azure services, especially how to interconnect IoT Hub, Stream Analytics, and Blob Storage.
-Understood the importance of timestamp synchronization and windowing when aggregating real-time data.
-Learned how to troubleshoot and debug Azure service configurations, such as verifying routing paths, input/output bindings, and service health.
-
+# Lessons Learned  
+<li>Gained hands-on experience working with real-time Azure services, especially how to interconnect IoT Hub, Stream Analytics, and Blob Storage.</li>  
+<li>Understood the importance of timestamp synchronization and windowing when aggregating real-time data.</li>  
+<li>Learned how to troubleshoot and debug Azure service configurations, such as verifying routing paths, input/output bindings, and service health.</li>  
